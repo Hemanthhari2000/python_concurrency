@@ -31,4 +31,4 @@ def real_world_example():
 
     t2 = time.perf_counter()
 
-    print(f"Finished in {t2-t1} seconds")
+    print(f"Finished in {t2 - t1} seconds")
