@@ -1,15 +1,16 @@
-from .import (
+from . import (
     # manual_threading,
-    # real_world_example,
+    real_world_example,
     # synchronous_example,
-    thread_pool_executor,
+    # thread_pool_executor,
 )
+
 
 def main():
     # synchronous_example()
     # manual_threading()
-    thread_pool_executor()
-    # real_world_example()
+    # thread_pool_executor()
+    real_world_example()
 
 
 if __name__ == "__main__":
